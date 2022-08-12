@@ -36,17 +36,17 @@
         <p><?= $recipe['description'] ?></p>
         <p><b>Ingredientes:</b> <?= $recipe['ingredients'] ?></p>
       </article>
-      <section>
+      <section class="more_option">
         <header>
-          <h3>Mais Receitas</h3>
+          <h3>Mais Opções</h3>
         </header>
-        <article>
+        <article  class="more_option_list">
           <?php foreach ($recipes_array as $data) {
             if ($data['id'] != $id) {
           ?>
-              <article>
-                <a href="recipes.php?id=<?= $data['id']; ?>"><?= $data["name"]; ?></a>
-              </article>
+          <article  class="more_option_list_item">
+            <a href="recipes.php?id=<?= $data['id']; ?>"><img src=<?= $data["image"]; ?> /></a>
+          </article>
           <?php
             }
           }
