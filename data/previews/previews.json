@@ -3,18 +3,37 @@
     "id":"1",
     "name":"Strogonoff de Frango",
     "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
-    "image":"data/previews/img/strogonoff_frango.jpeg"
+    "image":"data/previews/img/strogonoff-de-frango.jpg",
+    "ingredients": "Sobrecoxa de frango, cogumelo paris, creme de leite fresco,mustarda djon, ketchup, arroz parboilizado, batata chips, ervas frescas"
   },
   {
     "id":"2",
     "name":"Bife à Parmegiana",
-    "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
-    "image":"data/previews/img/strogonoff_frango.jpeg"
+    "description":"Um clássico da culinária Brasileira",
+    "image":"data/previews/img/bife-a-parmegiana.jpg"
   },
   {
     "id":"3",
     "name":"Baião de Dois",
-    "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
-    "image":"data/previews/img/strogonoff_frango.jpeg"
+    "description":"Esta delícia nordestina é incrível, você tem que esperimentar",
+    "image":"data/previews/img/baiao_de_dois.jpg"
+  },
+  {
+    "id":"4",
+    "name":"Pato no Tucupi",
+    "description":"Diretamente do Norte do País, este é o melhor Pato no Tucupi feito no Sul do Brasil",
+    "image":"data/previews/img/receita-de-pato-no-tucupi.jpg"
+  },
+  {
+    "id":"5",
+    "name":"Marreco Recheado",
+    "description":"Um delícioso Marreco Recheado, feito com uma receita tradicional de Brusque - SC",
+    "image":"data/previews/img/marreco-recheado.jpg"
+  },
+  {
+    "id":"6",
+    "name":"Arroz de Pequi",
+    "description":"Este arroz vai te deixar com gosto de quero mais. É um clássico do Centro-Oeste.",
+    "image":"data/previews/img/arroz_pequi.jpg"
   }
 ]

@@ -6,16 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
-  <title>Document</title>
+  <title>Marmitas da Dona Rita</title>
 </head>
 
 <body>
   <header class="main-header">
-    <div class="logo">
-      Logo
-    </div>
-    <div class="header_title">
-      Marmitas da Dna. Benta
+    <div class="header_logo">
+      <img src="data/img/logo.png"/>
     </div>
   </header>
   <main>
@@ -30,8 +27,8 @@
         foreach ($preview_data as $data) {
         ?>
           <article  class="recipe-item">
-            <a href="recipes.php?id=<?= $data['id']; ?>"><img src=<?= $data["image"]; ?> /></a>
             <h3><?= $data['name'] ?></h3>
+            <a href="recipes.php?id=<?= $data['id']; ?>"><img src=<?= $data["image"]; ?> /></a>
             <p><?= $data['description'] ?></p>
           </article>
         <?php
@@ -41,7 +38,7 @@
     </section>
   </main>
   <footer class="page-footer">
-    Any Footer
+    <p>Feito por Claudinei Corrêa Junior - 20120089-5</p>
   </footer>
 </body>
 
