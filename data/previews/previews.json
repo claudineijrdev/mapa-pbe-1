@@ -1,0 +1,20 @@
+[
+  {
+    "id":"1",
+    "name":"Strogonoff de Frango",
+    "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
+    "image":"data/previews/img/strogonoff_frango.jpeg"
+  },
+  {
+    "id":"2",
+    "name":"Bife à Parmegiana",
+    "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
+    "image":"data/previews/img/strogonoff_frango.jpeg"
+  },
+  {
+    "id":"3",
+    "name":"Baião de Dois",
+    "description":"Delicioso strogonoff de frango. Feito com os melhores produtos.",
+    "image":"data/previews/img/strogonoff_frango.jpeg"
+  }
+]

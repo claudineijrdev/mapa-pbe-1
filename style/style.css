@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  height:100vh;
+  display:flex; 
+  flex-direction:column; 
+}
+main {
+  height: 100%;
+}
+.main-header {
+  background-color: aqua;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.recipe-list {
+  height: 100%;
+  background-color: azure;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.recipe-list>header{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+.recipe-items {
+  margin: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.recipe-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer{
+  margin-top:auto; 
+  height: 200px;
+  color: rgb(206, 206, 206);
+  background-color: rgb(48, 48, 48);
+}
